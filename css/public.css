@@ -19,24 +19,36 @@ body {
     background-size: 110%;
 }
   
+
+footer{
+      background: #20123f;
+  color: #ffffff;
+  height: 300px;
+}
+
   h1.title,
   .footer-copyright a {
     font-family: 'Montserrat', cursive;
     text-transform: uppercase;
     font-weight: 900;
-    color: #512da8;
+   
   }
   
   /* AseguraDogs welcome animation */
   
   body.welcome {
-    background: #20123f;
+    background: #ffffff;
     /* overflow: hidden; */
     -webkit-font-smoothing: antialiased;
   }
 
 
   /* Showcase */
+
+.brand-logo{
+  font-weight: bold;
+}
+
 #showcase{
   min-height:400px;
   background:url('../assets/images/showcase.jpg') no-repeat 0 -600px;
@@ -44,9 +56,18 @@ body {
   color:#ffffff;
 }
 
+#showcase1{
+  min-height:400px;
+  background:url('../assets/images/showcase1.jpg') no-repeat 0 -200px;
+  background-size: 2000px;
+  text-align:center;
+  color:#ffffff;
+}
+
 #showcase h1{
   margin-top:100px;
   font-size:55px;
+  font-weight: bold;
   margin-bottom:10px;
 }
 
@@ -88,7 +109,7 @@ body {
   
   .columnmedal{
       background-color: #c6affc;
-      /* border-radius: 10%; */
+      border-radius: 50%;
   }
 
   .deep{
@@ -107,20 +128,6 @@ body {
       width: 500px;
   }
 
-  .separatorbasic{
-      height: 20px;
-      background-color: aquamarine;
-  }
-
-  .separatorprofessional{
-    height: 20px;
-    background-color: aqua;
-  }
-
-  .separatorpremium{
-    height: 20px;
-    background-color: orange;
-  }
 
   .star{
       font-size: 11pt;

@@ -33,11 +33,11 @@
                     <div class="col s12">
                         <ul class="center">
                             <li class="center">
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modallog">Log In</a>
+                                <a class="amber btn modal-trigger" href="#modallog">Log In</a>
                             </li>
                             <li class="center">
-                                <a href="#modalSignup" target="_blank" class="modal-trigger fa fa-facebook-square fa-2x waves-effect waves-light">
-                                    <a class="waves-effect waves-light btn ">Sign up</a>
+                                <a href="#modalSignup" target="_blank" class="modal-trigger amber">
+                                    <a class="amber btn ">Sign up</a>
                                 </a>
                             </li>
                         </ul>
@@ -50,13 +50,13 @@
             <div class="col s12">
                 <ul class="center">
                     <li class="center">
-                        <a href="#modalLog" target="_blank" class=" modal-trigger fa fa-facebook-square fa-2x waves-effect waves-light">
-                            <a class="waves-effect waves-light btn">Log In</a>
+                        <a href="#modalLog" target="_blank" class=" modal-trigger amber">
+                            <a class="amber btn">Log In</a>
                         </a>
                     </li>
                     <li class="center">
-                        <a href="#modalSignup" target="_blank" class="modal-trigger fa fa-facebook-square fa-2x waves-effect waves-light">
-                            <a class="waves-effect waves-light btn ">Sign up</a>
+                        <a href="#modalSignup" target="_blank" class="modal-trigger ambert">
+                            <a class="amber btn ">Sign up</a>
                         </a>
                     </li>
                 </ul>
@@ -72,7 +72,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec
                 magna sit amet sem interdum condimentum.</p>
             <div class="right-btn">
-                <a class="waves-effect waves-light btn white-text " style="margin-bottom:50px;margin-right: 10px;margin-top:0px;" href="#cotization">
+                <a class="green btn white-text " style="margin-bottom:50px;margin-right: 10px;margin-top:0px;" href="#cotization">
                     <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!
                 </a>
             </div>
@@ -107,11 +107,10 @@
                         </li>
                         <li>
                             <div class="row"></div>
-                            <div class="separatorbasic"></div>
                         </li>
                         <li>
                             <div class="row"></div>
-                            <a class="waves-effect waves-light btn white-text modal-trigger" id="medalbtn" href="#cotization">
+                            <a class="green btn white-text modal-trigger" id="medalbtn" href="#cotization">
                                 <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!</a>
                             <div class="row white-text">.</div>
                         </li>
@@ -140,11 +139,10 @@
                         </li>
                         <li>
                             <div class="row"></div>
-                            <div class="separatorprofessional"></div>
                         </li>
                         <li>
                             <div class="row"></div>
-                            <a class="waves-effect waves-light btn white-text " id="medalbtn" href="#cotization">
+                            <a class="green btn white-text " id="medalbtn" href="#cotization">
                                 <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!</a>
                             <div class="row white-text">.</div>
                         </li>
@@ -153,7 +151,7 @@
                 </div>
                 <div class="col l4 s12">
                     <ul class="columnmedal">
-                        <li class="columnmedal">
+                        <li>
                             <img src="assets/images/premiumpack.png" alt="basic" class="responsive-img">
                         </li>
                         <li>
@@ -174,11 +172,10 @@
                         </li>
                         <li>
                             <div class="row"></div>
-                            <div class="separatorpremium"></div>
                         </li>
                         <li>
                             <div class="row"></div>
-                            <a class="waves-effect waves-light btn white-text " id="medalbtn" href="#cotization">
+                            <a class="green btn white-text " id="medalbtn" href="#cotization">
                                 <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!</a>
                             <div class="row white-text">.</div>
                         </li>
@@ -188,10 +185,14 @@
         </div>
     </section>
 
+    <section id="showcase1">
+
+        </section>
+
     <!--  COTIZATION SIMULATION -->
 
-    <div class="container white" id="cotization">
-        <div class="row columnmedal" id="levels">
+    <div class="container" id="cotization">
+        <div class="row" id="levels">
             <div class="col l12 pushl4 s12 ">
                 <div class="row">
                     <div class="col l12 s12">
@@ -227,7 +228,7 @@
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
-                        <a class="waves-effect waves-light btn white-text modal-trigger" href="#modalSignup">
+                        <a class="green btn white-text modal-trigger" href="#modalSignup">
                             <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!
                         </a>
 
@@ -275,7 +276,7 @@
                         </div>
                         <li>
                             <div class="row"></div>
-                            <a class="waves-effect waves-light btn white-text modal-trigger" id="medalbtn" href="#modalSignup">
+                            <a class="green btn white-text modal-trigger" id="medalbtn" href="#modalSignup">
                                 <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!</a>
                             <div class="row white-text"></div>
                         </li>
@@ -295,8 +296,11 @@
     <!--  LOGIN MODAL -->
                 <div class="modal" style="background-color: rgba(224, 219, 211, 0.7); border-radius: 15px;" id="modallog" width="100px" height="100px">
                     <center>
+                        <div class="container">
                         <div class="row"></div>
                         <form id="form">
+                            <h4>User Log in</h4>
+                            <div class="row"></div>
                                 <div class="form-group row">
                                     <label for="email" class="col-sm-2 col-form-label">Email</label>
                                     <div class="col-sm-10">
@@ -315,6 +319,10 @@
                                     </div>
                                 </div>
                             </form>
+                        </div>
+
+    <!-- SIGN UP MODAL -->
+    
                         <!-- <div class="container">
                             <div class="signin-box z-depth-1 grey lighten-4 row" style="display: inline-block; border: 1px solid #EEE;">
 
@@ -363,8 +371,9 @@
 
     <!-- FOOTER -->
 
-    <footer class="page-footer deep-purple darken-3">
-        <div class="footer-copyright deep">
+    <footer>
+        <div class="row"></div>
+        <div class="footer-copyright deep center">
             <div class="container">
                 <div> 2018 AseguraDog</div>
             </div>

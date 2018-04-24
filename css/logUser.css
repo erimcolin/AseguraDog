@@ -4,6 +4,16 @@ body{
     margin:0;
     background-color:#f4f4f4;
   }
+
+  header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
   
   /* Global */
   .container{
@@ -102,11 +112,9 @@ body{
   }
   
   footer{
-    padding:20px;
-    margin-top:20px;
-    color:#ffffff;
-    background-color:#e8491d;
-    text-align: center;
+    background: #20123f;
+    color: #ffffff;
+    height: 50px;
   }
   
   /* Media Queries */
@@ -142,4 +150,3 @@ body{
       margin-bottom:5px;
     }
   }
-nav  

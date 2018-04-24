@@ -14,128 +14,284 @@
     <title>AseguraDog</title>
 </head>
 
+<!-- NAVBAR -->
+
 <header class="navbar-fixed">
     <nav class="nav-wrapper">
         <div class="row deep">
-            <a href="#!" class="brand-logo">AseguraDog</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <a href="#!" class="brand-logo center">AseguraDog</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
+            <ul class="right">
+                <li class="right">
+                    <a href="#modalSignup" target="_blank" class="modal-trigger amber">
+                        <a class="amber btn ">Sign Out</a>
+                    </a>
+                </li>
+            </ul>
             <ul class="right hide-on-med-and-down">
                 <div class="col s12">
-                    <ul class="center">
-                        <li class="center">
-                            <a href="#modalSignup" target="_blank" class="modal-trigger fa fa-facebook-square fa-2x waves-effect waves-light">
-                                <a class="waves-effect waves-light btn ">Log out</a>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </ul>
         </div>
-    </nav>
-
-    <ul class="sidenav" id="mobile-demo">
-        <div class="col s12">
-            <ul class="center">
-                <li class="center">
-                    <a href="#modalLog" target="_blank" class=" modal-trigger fa fa-facebook-square fa-2x waves-effect waves-light">
-                        <a class="waves-effect waves-light btn">Log In</a>
-                    </a>
-                </li>
-                <li class="center">
-                    <a href="#modalSignup" target="_blank" class="modal-trigger fa fa-facebook-square fa-2x waves-effect waves-light">
-                        <a class="waves-effect waves-light btn ">Sign up</a>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </ul>
 </header>
-<div class="row">
-    <div class="col s12">
-        <ul class="tabs">
-            <li class="tab col s3">
-                <a href="#test1">Test 1</a>
-            </li>
-            <li class="tab col s3">
-                <a class="active" href="#test2">Test 2</a>
-            </li>
-            <li class="tab col s3">
-                <a href="#test3">test 3</a>
-            </li>
-            <li class="tab col s3">
-                <a href="#test4">Test 4</a>
-            </li>
-        </ul>
-    </div>
+<ul id="slide-out" class="sidenav sidenav-fixed" width="10px">
 
-
-    <div id="test1" class="col s12">
-        <section id="newsletter">
-            <div class="container">
-                <form>
-                    <input type="email" placeholder="Enter Email...">
-                    <button type="submit" class="button_1">Subscribe</button>
-                </form>
+    <li>
+        <div class="user-view row">
+            <div class="background">
+                <img src="../assets/images/showcase1.jpg">
             </div>
-        </section>
+            <div class="col l5 pushl4">
+                <a href="#user" class="center">
+                    <img class="circle" src="../assets/images/elliot.jpg" width="100px">
+                </a>
+            </div>
+            <a href="#name">
+                <span class="white-text name">Gabo Gama</span>
+            </a>
+            <a href="#email">
+                <span class="white-text email">gabobad@gmail.com</span>
+            </a>
+        </div>
+    </li>
+    <li class="center blue-text">
+        <h4>Laika</h4>
+    </li>
+    <li class="center blue-text">
+        <h5>y</h5>
+    </li>
+    <li class="center blue-text">
+        <h5>Gabo Gama</h5>
+    </li>
+    <li class="center">
+        <hr>
+        <li class="center">
+            <p>
+                <i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quibusdam explicabo vero aspernatur similique
+                    voluptates a aliquid quidem doloribus"</i>
+            </p>
+        </li>
+        <a href="#modalSignup" target="_blank" class="modal-trigger">
+            <a class="amber btn ">Sign Out</a>
+        </a>
+    </li>
+</ul>
+</nav>
 
-        <section id="main">
-            <div class="container">
-                <article id="main-col">
-                    <h1 class="page-title">Perritos</h1>
-        
-                </article>
+<!-- MAIN -->
 
-                <aside id="sidebar">
-                    <div class="dark">
-                        <h3>Busca razas</h3>
-                        <form class="quote">
-                            <div>
-                                <label>Raza</label>
-                                <br>
-                                <input type="text" placeholder="Name">
-                            </div>
-                            <button class="button_1" type="submit">Search</button>
-                        </form>
+
+<div class="col s12 center" width="3000px">
+    <ul class="tabs right">
+        <li class="tab col s3">
+            <a href="#test1">Home</a>
+        </li>
+        <li class="tab col s3">
+            <a class="active" href="#test2">Seguro</a>
+        </li>
+        <li class="tab col s3">
+            <a href="#test3">Beneficios</a>
+        </li>
+        <li class="tab col s3">
+            <a href="#test4">Album</a>
+        </li>
+    </ul>
+</div>
+<div id="test1" class="col s12">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhMVFhUXFxUVFhcXFxUYGBYYFRcYFhUVFRgYHSggGRolGxgXIjEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGzAlICUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAK4BIQMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQEDBAYHAgj/xABDEAABAwIDBQQHBgQFAwUAAAABAAIRAyEEEjEFBkFRYRMicYEHMkKRobHwI1JiksHRcoKi4RRTc7Lxo7PCFSQlM0P/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAAnEQACAgICAgECBwAAAAAAAAAAAQIRAyESMQRBUSJCEyMycYGRof/aAAwDAQACEQMRAD8A7iiIgCIiAIiIAiIgCIsbFYoM14qG0lbJSsvVHgKLxm1I0UftLaBjVQj67nGTMA21ufLh4riy+R6R048Htk6/Gk3lXqFQusFDUCTfgBJkKd2fThsnU8vgmJuTGRKKMkCFbfUVKhVmo5bORkkVe9UD1ZdUXlz+H1oq8i1F41VTtOKxXTCU63NRyJ4lw4vK7jdZ9HaKhdptOQluo01/RYFHGEidbafOxVHkcWWWNSRu9DFtdxuslaTR2gRcR4aLYNl7UDxBN1tjzqWmZzxNbJZFQFVXQYhERAEREAREQBERAEREBRERAVREQBERAEREAREQBQG8pjKR4f3U+ovb2Gz07agrLMrg6L43UkaljKxPMhUo08xHD9PDmVcq0zMcvolZ+Bw/T6+ivOUbZ3SlSKtoDMykND3neA0B+uCkdp7Rp0Kbnvc1jWiSSQAB1JMKI2VWzYms6dAGjpc8PABQHpF3axGLZmpVSCwteKRAyPcwl3e5rpg9aMJK3svYHfnC16vZ0qoJIMWIkCbtJ1FiJFlN08SXX58lyvd7dLEurtfVpZTGWe0ccoLi4hgkwLnp3uZXW8LgcjA3iABPOFElvTJT1sxqtQhUbXIElXa2HlWsRh7LN2WVGFtHasECbfLqs7AV2vaM1jwOnwXKvSLj69EhrbBwAnqOU2Wqbv72YjDVA99Q1KZIzAul0HizqJ0NvDVXhjk1yInKK0fQ9dkAjp9XWt0jIkSYJE8RBhSGwdstxFEOa7MLweY0WBSMl4HBzvnb4LPK+SRbGmmyy/Fk2BiNYi/l/ZXtm4xwfEmfEeRhWq1MSf2Eg6ghUoU4eTxIHy16Lmp2dGqN82ftcEAOUwx03XNRiiwggkardt3q7305d0j9l6Hj53J8WcWbEoq0SyIi7DmCIiAIiIAiIgCIiAoiIgKoiIAiIgCIiAIiIAqOEqqIDV8fg8j+huOt/wDlUbWDGuceAJ81sOMoB7Y4i4Ws7Sw5cW0WyDUdEjg0DvO8lx5IcXo6YS5LZ43bwsZnRd8OPnceNipXEM1CyuxDXWECwHhEBW67YJV1DjGijnydmNQw4BmFWu8Be8U/K265NvzvkwPaxryczQ8A5mhrTdhMCczheDoCOahRsWdJFYO0IPuXnPZcGbvhUpxkdl42m/iCujbn71f4pgDjD2xIHEH1XfAjyKpKDSs0TTJHeLZlOuMr2gjW61/Zm4GDa/OWSRwJMW6TC2/GcCqUTCyjKrRo17MLD4FtKG0mhrb2Gl7ysPZ5PaVSZ/8AsI8g1pWxGkIlQjKJa5zr3cT/AEgKk40i0ZWUxRtbnHW68Un6TyIPjH7E/FMYdPf7uaizjYPW3y0KxfZtFaJN7HOcGidREc/q/vXTdmUMlMN+tFru6WwXN+2rDvG7WnhaJPxW2wvQ8XE4rk/ZxeRkUnxQREXWcwREQBERAEREAREQFEREBVERAEREAREQBERAEREBQrAw2BIququN/VaBoGzrpqVIIoaTJToxsS3irNalJWbUFlYq6KskEyC2xXaGmbjUjp+q+dN68IGYlxfUc8AksFtNGgnpplvYLu+8+IIa4SDANg3MdHdfrzXFNs5XFxPMkdOKyi6ZrxtGm4ie75/Oy6d6NtkuY41Xlod6oaOUZiIPGSfCCtIpYNjsrm358eK6jukIpCzuRLcuoIInRwMHS/HznJLVCEd2bZXEsMc/7K9gKZ0IVzAtBBEO0mCCsynhw265lDdmznqjHxFrfqsCu2KRdyIPk6x+YUhXMFeqeQNc14nOC2Oh4q0lZWLo1Sux9Q90dI8pW17o7nMo/b1xmqm4abiny8XK1u3sWo2v3xLGy5rrXm0Hr48uOq3YJ4+D7pE5s32xKhERdxyBERAEREAREQBERAEREBRERAVREQBERAEREAREQBERAEREB4JvCsYkWlXnm4Vuoeaqwcy36dWeMjGu7xvrHdEgRF9dTpC5o/d+q5xL7308ePXgvoPF7ODiSX34EySI0HgojaG7zXEnuF0QYIB48+i52pI6FJUcLdsasxwLWgX04GNRC2/duuW9xzXEty6EgxIOthF5iFt9TdaI0JBm5BudVZGwTmDssEd3hpxB5hZuT+C6SJXZ8kesSLcrxY6e9S9R0U5PCPr5KKwIyz9lDuEu7ttLQrOM2kHg0wdJk6S42AEdSLc4UppIo1ZXE4sSTroZ6OuP281XZ/fdJWBSl4JHQX6lth+WfMqe2Th1WNyZZ1FE7hHhok2Cz2vBEgyDyWEGj1CJBF1pe1dnY3Z7nYjAONajOaphXS4jm6lFz4DvfxaLvhG9HK2dDRa9unvdh8czNSdDwJdTJGYdQfab1HwWwSpaadMFURFACIiAIiIAiIgCIiAoiIgKoiIAiIgCIiAIiIAiIgCoVVYW2saKNCpVPsNc7zi3xhSlegQn/rWbFloMtBNJsTqy9Rx5y4hv8hU9WuFxattB9OvhwLuaKZIMnv1PtH2zASHPOsrsdCrmaD0Vs8VFpERdqzHqVI1Ubj7kRrp9fXFSOJao5rDJLtVyS+DWJj1aRdDT5+CzMoCsh3eVyuLKEWI/aOKIENN/koLDUe8AOAnrJ0nhN5jmpjFUJERJd5W4j66q9hcHAk3Nz5lZNOTNE0kWsNRtfjHlAtHvKltn4qm05ZAdBibaCVjBluv1ZRm2KRAa9vCxH8Vh/VA81pHRR7NrZWsXc9FWhVutf3crudh6bX6tBaCCDmY1zm0325tbH8p5iZvDNWyZm0aPv7u6+i47SwQLajCX12M4j2qzAPaHtDiJPAzP7j77MxjA15aKwEkcHj7zf1HBbA98G/14rg++OAdsraE0CWUqn22HI9gg9+kP4SdPuuaF0wamuL79MzarZ9Ciqq9otT3Q3kbjKAqCA8d2o0ey6NR+E6j+yn6VeLHRYu06ZYz8y9SrGbloq50sgvAr0rDXq80qQVREQBERAUREQFUREAREQBERAEREAREQBaX6VsXlwXZjWq8M8oJ+cLdFy/0wYv7TCU/xtJ/mqsb+hW2BXkRWb0aNjcZ/8k3Qg1stxIguj5BdtwDoaAuC4UztCjaZqi1uZ5/Vl3eloqeW/wAwtj/SZdQLCrMWUHyrVbQrmey6Ig9145G3ms5wWNiBqOog8jwWaxllRIszHp0byeIgBVVyq+Fg1qvvn3pVE9le1mR8Fg7exzKGFr163qMpuJH3ie61o6lxaB4qWwNMGb3kzPTx1VjeLY9LE0TQqzkdrABIsQHCQRIJBEjUBaRRVs4vulvZtCm9j3VRUpTei4hrCDAJBDe6YEz7137BVMzGugjM1roMSMwBgxaRMLiW+u7bcDWaykD2L2h1OSTBbDajCTreHeDwOC6h6PMea2BpFxlzM1I84Ye5PXIWLry4oxhGUTGMm20zYMTa/kubemzDB+z21I71Gq1wPIO7jh4GW+4Lp1RmYEe7x4Ln/pKM7NxNphgP9Q+vJcy0zT0c49HO8pw9Zrye46GVB+E6O8Wm/vXfmOkfJfKGxa+WpB0P6r6E3A2sa2FaHGXUj2Z6gCWH8tvIrpzxuKn/AGUg90bfhq0HKdD8DzWZ0OqjXjipDDPztj2guZF2BZZDHK04SOqUnqxUygi8NK9qQEREBRERAVREQBERAEREAREQBERAFxP00YmMZT/A2ifc8u/ZdqcVwP05k/4l/wDp0/kV0eL+v+Ck+jWcYXNxjC0w7tIBHA5oBXfaDyadOofaY0uHAOIEx5yvn3alUCvTqfjY+ehLXL6GwImgxvDKPl/z71XzI/UTiejxUq8ir0/ZZyfVPekgWJsRPuVmhS4H6C87XxTaNM1TH2WZ8F2Vpim8EPP3cpcfIcVxRTs2lRiMxAe4Ac/9pgz7j7lJvfAXE9nekbF0a32mGFSm98NDA5jw1xAa2mCSXcIDhOgkCAOrjHh7A5swQDBBBHRw1B5hTKDh2Qmn0e8RV4nXgF62dQLnZncPqFjUKbnmYN/gE2nvTgsEIrV2Bw//ADac9Q/yNuPEwOqmEbJk6J6m0Bs8In9VGmqXOgaO0HKLyfd8lrmL3gqYhlCrgz2jA5jjSZlzVBGWpSfPqvaHZwLCWDmCtqp0ctvaOvQclaVlUaj6UMM5+Fa4wTSqNdMXyvBpkWt6zmHyWD6JdrACvRP4Ko/2PP8A21um2Nnith6tLi9jmj+KJYfzAHyXINzsZ2OOpF1g8mi+eAqWH/UDPcuvH9eBx9ozeppndGYsKC2+2nUD2xLXth4Isc2vkVIUjaFHYynf65rjs2o+ctt7NOFxL6V+47unmx12n3W8l0z0X7QiuaZNqrP66feHnlzKL9K+yRDcS0d6ezd/CQSw/mB/Mtr3K33wdDDUcL2dV0OEuYxmTvOBl2ZzXONzJg+a64zcsdJXZlJVKzoVF02XulWyOHLj5qw2xtzIVKxXGak8+xlWKogyvdJ00wei8uMtVyh7p1FkNUfSPFZ7CpQZ6REUkFEREBVERAEREAREQBERAEREB4cbrhnpyZ/7mfvUmH3Fw/RdxrGy476bqIL6RjWm4fleT/5Lfxn+YUn0c727hvsqMaOoYcj+eiwnxuT7l3ndHGdrg6FTmxs+MXXB6mL7TC0osadPsXc5Y52XyyFi6F6IttHsW0Xnu5nMYfuuHs+BBEf3VvIT4psQ7aOlvsZWBtzZzMTQfQfYPymYmCx7ajDHEBzWyOIkcVIPCsFy4Xpmq2cP3jwrqeIcWjK+lUBHR7CHA+EgHwK3zAYyjjmns7S0mo0+tTJ7t+s6O0MT0WbvhsBmJYXghlVos6LOH3Xx8DeOosuWYqlXwtRrnB9J5ux4JbmBFyxw9YRrB8V3Nw8mK3UkZ7x/sdIwG7NV1E0MV2dZlwCXVCY0EkgEGORUOfQ5h3VQ5td9OlxptAcSfw1H+qPEOWFsn0j16dq1NtYW7w+zf4kgFp/KPFbbgPSFgX+s6pSPJ7CR76eb4wsvwMuN6/wnnGRM7ubCw2DYaeHphg9pxJc95gGXuNzqLaDgFKdoFEYPb+EqHuYmjceqajA7X7pIKmKQabtv1F/ksZKV7LKisLiW/wDs7sMZVyiGv+2YRwzk5gOUPzDyC7VWcRo0+4rSvSTsZ1bDds1pz0JfoZNMj7QDwhrvBrua18efGdP2RNWrJ3draYxWGpV/ac2HgaCo3u1B+YEjoQrmKNpPDVcx9GO8PZV3YV5hlYgs/DVAgD+cW8WtXTcZVZlIe5rZGriGjxJKpmxuMmi8JWjU95nH/B4l3F1Nzfz/AGce5y5hsZ0NPNpPwNlvG+W36PZdjTcHSQXOHq924aDxvB5WWl7Mw7gC5zYD/tGTxYSWT4ZmOXZ4mNwx/V7ZlmlctH0JhKoc1rxo5rXfmaHfqvdRR+7jpwuHJ/yaX+wBZtZy8+SptGy6JvZZmmPMLxSMAhNkGKYVuq6C7xU+ivs9U1mMfwWCxyuYR8knmUTDRIoiK5UoiIgKoiIAiIgCIiAIioSgKq1VcvNSqrD3qAKtVazvTu3Tx/ZtfUcwMLpygFzg/KCGk2bcC8HwU1i6haJ1jXwWrbzbxYfDU+1rVjTBs0NJzvPJgbc8J4CbkKYycXaDVnmrujs3B4fMyjTnNmJq/auOUSXAPm4AmQBC1/GYui+qWUaT6Tmy580TSknJlcbC9jE3gKNHpXoYnEU2VGBmHuCHUzmD3CM4LXGWcMpE96ei8bexzquMZSpVi3PDszQHNLZcB3uNmnSLQolKUuyY0jo2wdsirT7x7ws7x5rKxL4M8Fr+F3efQaKrHlxIuRGR/HT2XawZIOlleZtEPYeY1B6agjgs5dFl2ZOOrZ4pj2jfwFz8JWY7DsqNNOoxr2HVjmhzT4tNlDbHdme9/AQ0eJhx+GX3qbbUAUQ+SZfBrO1PRxg6kmkalA/gOZn5HyfIOC1HaPo2xTRNOtRqgcXZqTj4CHD3uXUmVTUMCzePVU2jUAYeS3jnnHpmfBM4riNztpNMDDufF+4+k/4B0/BRVbY+MZ62DxDTzOHqj45V3rCVRn4TBHlqpJmADiHEEDXxW0fMmVeJHzVUdi2kANrtJsBlqtk8hYSVt+wdzdrYgA1ar8Mw/wCa+oXkf6QMjwdlXcW0GN0F/Ery9rQJhJeTJ9Dgj55333Uq4B7CX9ox/q1WtLBnbcsgOOVw1F7i40MZ27ezKG0nEHFHD4jVzOza9tQe1Up99sE6lt4JkWMDsW3tlU8TRdRqNDmuFwbXGha72XA6HguB7x7uYjAVp7+UHMyqLERoSRYEfeFjz4C0c7kqumOFG54L0YFtaa9dtWkIIhpa53NrmkkN8ZKs74tH+LcxgtTp0qIA4EZn5R+cDxUfsn0l12ty1gHGIFQAT4kaT1+C2PdOlTr1e3MuDXZoI1cby4nUzdIylF8psNJ6RvuzqHZUadP7lOm0+LWAH4yrhbMdUD5/VXKDhMnh8Vwt27NuiSwz4hY2IqS6FR1bj9dAsUVLo2EjKe+0LMwYuOij6NzPuUnhtYHn4qUQyQREWhQoiIgKoiIAiK3Wq5RKAuIourjTE/BR7tpPM3ss3kSLKLNhfVAWNVqlQ1PFOPrX8Vj16rm96mS3pq3zboVH4hPAla1UqxTxF4Pl+yx8PiTUphxADrzGkgwY6WWPjqRAMuIMEjLwtYyf2U37Ioy8fXiJ4mAvmPfLarsXjKr5JaHvZSaNGsaSBA5nU9SvoradWRTd0/S6+d20hQxNdoM5X1qRtpLnNY9vUOg+XVWRDJnbG4QwzWU6j3DEPp1Ht0yOfTbmdRA9aYMZtCeAmVsnozcyvRbnqFtSk45bNLXZrZXkjNBLHkQbZyo3bXpGw9am3JgmtxjWOY2rPdpuqDLVqM1LibQHDu+9e9zsEaeGOJAbkLw0CSXdyaWYyIBzNebH2k9bB2TYWJY/7Meq8OEfdc3WOWh9y0/azuxxVtHAEj8Qlrvl8V73MxUV8OPvNqVT/PmDR4wAo7a2I7SsTyn+pzj+yq3otFbJqhjGU2ACwJJHMkmf7eAWXh3l5E+5a+w5m5T4g8QeBCkNj4whhLrkEi3Qwqos0bEagYABqVhbbqxSI8B71i0MSXHMfJWNqFz+zpjV72i+nSVLeiEtmx7t4Nr29s4SQcreQgAl3jf4KeI5KPwlEYWk2me865ceBJ1jyAHksY7dlzmhsFsTpx5I5qPY4uXRKlpXhwBty4LDG0XlhIiQLSJHnBHBZmFxDagFiCRPhCKSZDi0Y1SgdWX5jj5LFc1r4DmgwZE8DzHJSmIoxJaYIgnlefqFgYwdztRqDDhz5EdVIRF7a3Z2eaT6hwmHz2h3ZtBkkchr/ZYeEDKbQ1oAA0AAAHgApyrQFZhpEwfZPAOGkibi61IV41VJyZaCJqnXKyhVC1w7Q8VbdtMtvdV5F6No7UmwVymQtWw+2C7hAUi3bDWiSHH3fupsq0bFRKk8C2/gtP2dts13inTBaJ1OseS3vD0g1oAV4O+iklRdREWpQoioiA//2Q==">
+                            <span class="card-title home">Dispatch Coffee Saint-Laurent</span>
+                        </a>
                     </div>
-                </aside>
+                </div>
             </div>
-        </section>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="http://pamperedpetsandpeople.com/wp-content/uploads/2013/02/PPP-PetServices-Dogs.jpg">
+                            <span class="card-title home">Shaughnessy Café</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/123553318-talk-to-your-dog-632x475.jpg">
+                            <span class="card-title home">Standard coffee bar</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="https://www.arflife.org/thumbs/750x486/files/farW/happy_goldie_dog_750x486_36385.jpg"
+                                class="responsive-img" alt="">
+                            <span class="card-title home">Espresso Bison</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="http://cdn.skim.gs/images/v1/msi/lmwqjljual7s0exeyxkq/dog-games-they-actually-wants-to-play"
+                                class="responsive-img" alt="">
+                            <span class="card-title home">Café Perko</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="http://luckydogbarkandbrew.com/wp-content/uploads/2016/09/file_16863_Top-10-dog-news-stories-of-.jpg"
+                                class="responsive-img" alt="">
+                            <span class="card-title home">Café Jeanne d’arc</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="http://www.schertzanimalhospital.com/blog/wp-content/uploads/2014/08/iStock_000038368526_Medium.jpg">
+                            <span class="card-title home">Le Butterblume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a>
+                            <img class="responsive-img" width="305" height="229" src="https://topdogtips.com/wp-content/uploads/2016/12/Online-Dog-Supplies-Retailers-With-Best-Deals-and-Discounts-Until-2016s-End.jpg"
+                                class="responsive-img" alt="">
+                            <span class="card-title home">Myriade Espresso Bar</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div id="test2" class="col s12">
-<img src="../assets/images/dogo.jpg" alt="">
-
-    </div>
-
-
-    <div id="test3" class="col s12">
-
-
-    </div>
-
-    <div id="test4" class="col s12">
-
-
-    </div>
-
 </div>
 
-<footer class="page-footer deep-purple darken-3">
-    <div class="footer-copyright deep">
-        <div class="container">
-            <div> 2018 AseguraDog</div>
+<div id="test2" class="col l12">
+
+    <!--  COTIZATION SIMULATION -->
+
+    <div class="container" id="cotization">
+        <div class="row"></div>
+        <div class="row dark-blue-text center">COTIZA</div>
+        <div class="row" id="levels">
+            <div class="col l12 pushl4 s12 ">
+                <div class="row">
+                    <div class="col l12 s12">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 l5">
+                        <select>
+                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="col s12 m6 l5">
+                        <select>
+                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <a class="green btn white-text modal-trigger" href="#modalSignup">
+                            <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!
+                        </a>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</footer>
-</body>
+    <div class="container">
+        <div class="row">
+            <div class="col l6 m6 s12 center">
+                <div class="">
+                    <div class="row">Carnet canino</div>
+                    <img class="activator" src="../assets/images/carnet.png" alt="dog" width="305" height="229">
+                </div>
+            </div>
+            <div class="col l6 m6 s12center">
+            </div>
+        </div>
 
-<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script src="../js/logUser.js"></script>
-</body>
+
+        <div id="test3" class="col s12">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/office.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title
+                        <i class="material-icons right">more_vert</i>
+                    </span>
+                    <p>
+                        <a href="#">This is a link</a>
+                    </p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title
+                        <i class="material-icons right">close</i>
+                    </span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+        <div id="test4" class="col s12">Album</div>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+            <div class="footer-copyright deep center">
+                <div> 2018 AseguraDog</div>
+            </div>
+        </footer>
+
+
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="../js/logUser.js"></script>
+        </body>
 
 </html>

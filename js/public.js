@@ -17,8 +17,8 @@ $("form").submit(function(e){
   e.preventDefault();
   const uEmail = $('#email').val();
   const uPassword = $('#password').val();
-  console.log(Uemail);
-  console.log(Upassword);
+  console.log(uEmail);
+  console.log(uPassword);
   toObject(uEmail,uPassword);
 });
 
@@ -50,7 +50,7 @@ const gettingData = storage => {
   let storedData = localStorage.getItem('emailStorage');
   console.log(storedData);
   let stringToJson = (JSON.parse(storedData));
-  window.location.href = "../views/logUser.html"
+  window.location.href = "views/logUser.html"
   console.log(stringToJson);
 }
 
