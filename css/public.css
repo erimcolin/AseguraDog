@@ -1,0 +1,260 @@
+body {
+    /* display: flex;
+    min-height: 100vh; */
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #cotization{
+    background-color: white;
+  }
+
+
+  #main-image {
+    background-image: url(../assets/images/homedog.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+  
+  h1.title,
+  .footer-copyright a {
+    font-family: 'Montserrat', cursive;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #512da8;
+  }
+  
+  /* AseguraDogs welcome animation */
+  
+  body.welcome {
+    background: #20123f;
+    /* overflow: hidden; */
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+  /* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../assets/images/showcase.jpg') no-repeat 0 -600px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:15px;
+}
+
+#showcase h1{
+  margin-top:40px;
+}
+
+  #modal-levels{
+      display: none;
+  }
+
+  #medalbtn{
+      font-size: 11px;
+  }
+
+  #big-btn{
+      width: 100px;
+  }
+
+  #mainspan{
+      margin-top: 500px;
+  }
+
+  .benefitmedal{
+      font-size: 14pts;
+      font-weight: 600;
+      color: rgb(86, 86, 119);
+  }
+
+  .cont{ 
+    width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+  
+  .columnmedal{
+      background-color: #c6affc;
+      /* border-radius: 10%; */
+  }
+
+  .deep{
+    background: #20123f;
+  }
+
+  .list{
+    text-decoration: none;
+  }
+
+  .medals{
+      margin-top: 30px;
+  }
+
+  .packimg{
+      width: 500px;
+  }
+
+  .separatorbasic{
+      height: 20px;
+      background-color: aquamarine;
+  }
+
+  .separatorprofessional{
+    height: 20px;
+    background-color: aqua;
+  }
+
+  .separatorpremium{
+    height: 20px;
+    background-color: orange;
+  }
+
+  .star{
+      font-size: 11pt;
+  }
+
+  .welcome .splash {
+    height: 0px;
+    padding: 0px;
+    border: 130em solid #039be5;
+    position: fixed;
+    left: 50%;
+    top: 100%;
+    display: block;
+    box-sizing: initial;
+    /* overflow: hidden; */
+  
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
+  }
+  
+  .welcome #welcome {
+    background: #110835 ;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* overflow: hidden; */
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards, hide 2s 2.9s ease forwards;
+  }
+  
+  /* moveIn */
+  .welcome header,
+  .welcome a.btn {
+    opacity: 0;
+    animation: moveIn 2s 3.1s ease forwards;
+  }
+  
+  @keyframes init {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+    100% {
+      width: 56px;
+      height: 56px;
+      margin-top: 0px;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes puff {
+    0% {
+      top: 100%;
+      height: 0px;
+      padding: 0px;
+    }
+    100% {
+      top: 50%;
+      height: 100%;
+      padding: 0px 100%;
+    }
+  }
+  
+  @keyframes borderRadius {
+    0% {
+      border-radius: 50%;
+    }
+    100% {
+      border-radius: 0px;
+    }
+  }
+  
+  @keyframes moveDown {
+    0% {
+      top: 50%;
+    }
+    50% {
+      top: 40%;
+    }
+    100% {
+      top: 100%;
+    }
+  }
+  
+  @keyframes moveUp {
+    0% {
+      background: #100a2b;
+      top: 100%;
+    }
+    50% {
+      top: 40%;
+    }
+    100% {
+      top: 50%;
+      background: #cee8f5;
+    }
+  }
+  
+  @keyframes materia {
+    0% {
+      background: #cee8f5;
+    }
+    50% {
+      background: #cee8f5;
+      top: 26px;
+    }
+    100% {
+      background: #100a2b;
+      width: 100%;
+      height: 64px;
+      border-radius: 0px;
+      top: 26px;
+    }
+  }
+  
+  @keyframes moveIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes hide {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
