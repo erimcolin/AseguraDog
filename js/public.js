@@ -17,8 +17,8 @@ $("form").submit(function(e){
   e.preventDefault();
   const uEmail = $('#email').val();
   const uPassword = $('#password').val();
-  console.log(Uemail);
-  console.log(Upassword);
+  console.log(uEmail);
+  console.log(uPassword);
   toObject(uEmail,uPassword);
 });
 
