@@ -15,6 +15,7 @@
 
 <body class="welcome">
 
+
     <!-- SPLASH WELCOME -->
 
     <!-- <span id="splash-overlay" class="splash"></span>
@@ -32,14 +33,27 @@
                 <ul class="right hide-on-med-and-down">
                     <div class="col s12">
                         <ul class="center">
+
+                            <li class="center">
+                                <div class="fb-login-button" data-width="200" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false"
+                                    data-auto-logout-link="true" data-use-continue-as="true"></div>
+                            </li>
+
                             <li class="center">
                                 <a class="amber btn modal-trigger" href="#modallog">Log In</a>
                             </li>
+
                             <li class="center">
+<<<<<<< HEAD
                                 <a href="#modalSignup" target="_blank" class="modal-trigger amber">
                                     <a class="amber btn ">Sign up</a>
+=======
+                                <a href="#modalSignup" target="_blank" class="modal-trigger waves-effect waves-light">
+                                    <a class="waves-effect waves-light btn ">Sign up</a>
+>>>>>>> f2e1682a2dd051daeb7fe76d4499db7a0145116c
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                 </ul>
@@ -49,6 +63,10 @@
         <ul class="sidenav" id="mobile-demo">
             <div class="col s12">
                 <ul class="center">
+                    <li>
+                        <div class="fb-login-button" data-width="200" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false"
+                            data-auto-logout-link="true" data-use-continue-as="true"></div>
+                    </li>
                     <li class="center">
                         <a href="#modalLog" target="_blank" class=" modal-trigger amber">
                             <a class="amber btn">Log In</a>
@@ -65,6 +83,7 @@
     </header>
 
     <!-- MAIN STRIKING IMAGE -->
+
 
     <section id="showcase">
         <div class="cont">
@@ -202,39 +221,83 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <select>
-                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                        </select>
-                    </div>
+                <div id="card">
+                    <!-- <div class="col s12 m7">
+                        <h2 class="header">Horizontal Card</h2>
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="https://lorempixel.com/100/190/nature/6">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">This is a link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
+
+
+
+                <!-- <div class="row">
+                    <div class="input-field col s12">
+                        
+                        <select id="select-dogs">
+                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option> -->
+                <!-- </select>
+            </div>
+        </div> -->
                 <div class="row">
                     <div class="col s12 m6 l5">
                         <select>
-                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
+                            <option value="" disabled="disabled" selected="selected">Su edad</option>
+                            <option value="1">0 a 5 años</option>
+                            <option value="1">5 a 10 años</option>
+                            <option value="1">10 a 15 años</option>
+                            <option value="1">15 a 20 años</option>
+                            <option value="1">20 a 25 años</option>
+                            <option value="1">25 a 30 años</option>
                         </select>
                     </div>
-                    <div class="col s12 m6 l5">
+                    <!-- <div class="col s12 m6 l5">
                         <select>
                             <option value="" disabled="disabled" selected="selected">Choose your option</option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
+<<<<<<< HEAD
                         <a class="green btn white-text modal-trigger" href="#modalSignup">
+=======
+                        <a id="btnDelSelect" class="waves-effect waves-light btn white-text modal-trigger" href="#modalSignup">
+>>>>>>> f2e1682a2dd051daeb7fe76d4499db7a0145116c
                             <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!
                         </a>
 
+                    </div> -->
+                </div>
+            </div>
+
+
+            <div class="col s12 m7">
+                <h2 class="header">Adquiere tu seguro</h2>
+                <div class="card horizontal">                   
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <div id="paypal-button-container"></div>
+                        </div>                        
                     </div>
                 </div>
             </div>
+
+
+
 
             <!--  MODAL LEVELS -->
 
@@ -287,6 +350,7 @@
     </div>
 
     <!--  LOGIN MODAL -->
+<<<<<<< HEAD
                 <div class="modal" style="background-color: rgba(224, 219, 211, 0.7); border-radius: 15px;" id="modallog" width="100px" height="100px">
                     <center>
                         <div class="container">
@@ -317,6 +381,31 @@
     <!-- SIGN UP MODAL -->
     
                         <!-- <div class="container">
+=======
+    <div class="modal" style="background-color: rgba(224, 219, 211, 0.7); border-radius: 15px;" id="modallog" width="100px" height="100px">
+        <center>
+            <div class="row"></div>
+            <form id="form">
+                <div class="form-group row">
+                    <label for="email" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="password" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </div>
+            </form>
+            <!-- <div class="container">
+>>>>>>> f2e1682a2dd051daeb7fe76d4499db7a0145116c
                             <div class="signin-box z-depth-1 grey lighten-4 row" style="display: inline-block; border: 1px solid #EEE;">
 
                                 <form class="col s12" method="post" id="form">
@@ -356,17 +445,21 @@
                                 </form>
                             </div>
                         </div> -->
-                    </center>
-                    <div class="section"></div>
-                    <div class="section"></div>
-                </div>
-
-
+        </center>
+        <div class="section"></div>
+        <div class="section"></div>
+    </div>
     <!-- FOOTER -->
 
+<<<<<<< HEAD
     <footer>
         <div class="row"></div>
         <div class="footer-copyright deep center">
+=======
+    <footer class="page-footer deep-purple darken-3">
+
+        <div class="footer-copyright deep">
+>>>>>>> f2e1682a2dd051daeb7fe76d4499db7a0145116c
             <div class="container">
                     <img src="assets/images/social.png" alt="" width="200px">
                 <div> 2018 AseguraDog</div>
@@ -374,11 +467,16 @@
         </div>
     </footer>
 </body>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="js/paypal.js"></script>
+
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="js/public.js"></script>
+<script src="js/loginFacebook.js"></script>
+<script src="js/apiDogs.js"></script>
 </body>
 
 </html>
