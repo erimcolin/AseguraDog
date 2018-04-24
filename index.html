@@ -215,39 +215,79 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <select>
-                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                        </select>
-                    </div>
+                <div id="card">
+                    <!-- <div class="col s12 m7">
+                        <h2 class="header">Horizontal Card</h2>
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="https://lorempixel.com/100/190/nature/6">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">This is a link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
+
+
+
+                <!-- <div class="row">
+                    <div class="input-field col s12">
+                        
+                        <select id="select-dogs">
+                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option> -->
+                <!-- </select>
+            </div>
+        </div> -->
                 <div class="row">
                     <div class="col s12 m6 l5">
                         <select>
-                            <option value="" disabled="disabled" selected="selected">Choose your option</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
+                            <option value="" disabled="disabled" selected="selected">Su edad</option>
+                            <option value="1">0 a 5 años</option>
+                            <option value="1">5 a 10 años</option>
+                            <option value="1">10 a 15 años</option>
+                            <option value="1">15 a 20 años</option>
+                            <option value="1">20 a 25 años</option>
+                            <option value="1">25 a 30 años</option>
                         </select>
                     </div>
-                    <div class="col s12 m6 l5">
+                    <!-- <div class="col s12 m6 l5">
                         <select>
                             <option value="" disabled="disabled" selected="selected">Choose your option</option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
-                        <a class="waves-effect waves-light btn white-text modal-trigger" href="#modalSignup">
+                        <a id="btnDelSelect" class="waves-effect waves-light btn white-text modal-trigger" href="#modalSignup">
                             <i class="mdi mdi-credit-card"></i>¡Cotiza ahora!
                         </a>
 
+                    </div> -->
+                </div>
+            </div>
+
+
+            <div class="col s12 m7">
+                <h2 class="header">Adquiere tu seguro</h2>
+                <div class="card horizontal">                   
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <div id="paypal-button-container"></div>
+                        </div>                        
                     </div>
                 </div>
             </div>
+
+
+
 
             <!--  MODAL LEVELS -->
 
@@ -384,12 +424,16 @@
         </div>
     </footer>
 </body>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="js/paypal.js"></script>
+
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="js/public.js"></script>
 <script src="js/loginFacebook.js"></script>
+<script src="js/apiDogs.js"></script>
 </body>
 
 </html>
